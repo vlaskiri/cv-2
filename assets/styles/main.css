@@ -1,12 +1,5 @@
-body {
-    background-color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
-
 .backcolor-1 {
-    background-image: url(/images/avatar.jpg);
+    background-image: url(/assets/images/avatar.jpg);
     padding-bottom: 10px;
 }
 .avatar {
@@ -53,19 +46,7 @@ h2 {
     color: rgb(0, 0, 0);
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-}
 
-@media (max-width: 700px) {
-    .container {
-        display: block;
-        text-align: center;
-    }
-}
 
 /* .container-1 {
     /* background-color: rgb(217, 255, 0); */

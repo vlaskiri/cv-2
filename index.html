@@ -1,42 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Vlasov Kirill CV</title>
-    <link href="./reset.css" rel="stylesheet" />
-    <link href="./style.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="assets/styles/reset.css" rel="stylesheet"/>
+    <link href="assets/styles/shared.css" rel="stylesheet"/>
+    <link href="assets/styles/main.css" rel="stylesheet"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="backcolor-1">
-        <img src="./images/OWL.png" alt="Фото совы" class="avatar" />
-        <div class="h1">
-            <h1>Vlasov Kirill</h1>
+<header class="backcolor-1">
+    <img alt="Фото совы" class="avatar" src="assets/images/OWL.png"/>
+    <div class="h1">
+        <h1>Vlasov Kirill</h1>
+    </div>
+    <div class="h2">
+        <h2>Front-End/Web Developer</h2>
+    </div>
+</header>
+<hr color="red" width="30%">
+
+<main class="container">
+    <div class="container-1">
+        <div class="h2-1">
+            <h2>Контакты</h2>
+            <hr class="hr">
+            <p>Номер тел.: +380-93-524-72-87</p>
+            <p>Адресс: <a href="https://goo.gl/maps/vkyfWQnYKJ6B3HQ1A" target="_blank"> Украина, Львов, Наливайка 14/5а,
+                79007</a></p>
+            <p>Почта: bboysmo3@gmail.com</p>
+            <p>Телеграм: <a href="https://t.me/vlaskiri" target="_blank">/vlaskiri</a></p>
         </div>
-        <div class="h2">
-            <h2>Front-End/Web Developer</h2>
+        <div class="h2-2">
+            <h2>Личная информация</h2>
+            <hr class="hr">
+            <p>Целеустремлённый и амбициозный парень, которого не пугают новые задачи и сложные проекты. Начать свой
+                путь как разработчика меня сподвигли возможности создание чего-либо с самого нуля, удалённой работы и
+                хорошего заработка. Также здесь есть возможность постоянно самосовершенствоваться.</p>
         </div>
     </div>
-        <hr width="30%" color="red">
-
-    <div class="container">
-        <div class="container-1">
-                <div class="h2-1">
-                    <h2>Контакты</h2>
-                    <hr class="hr">
-                    <p>Номер тел.: +380-93-524-72-87</p>
-                    <p>Адресс: <a href="https://goo.gl/maps/vkyfWQnYKJ6B3HQ1A" target="_blank"> Украина, Львов, Наливайка 14/5а, 79007</a></p>
-                    <p>Почта: bboysmo3@gmail.com</p>
-                    <p>Телеграм: <a href="https://t.me/vlaskiri" target="_blank">/vlaskiri</a></p>
-                </div>
-            <div class="h2-2">
-                <h2>Личная информация</h2>
-                <hr class="hr">
-                <p>Целеустремлённый и амбициозный парень, которого не пугают новые задачи и сложные проекты. Начать свой путь как разработчика меня сподвигли возможности создание чего-либо с самого нуля, удалённой работы и хорошего заработка. Также здесь есть возможность постоянно самосовершенствоваться.</p>
-            </div>
-        </div>
-    <div class="container-2">
+    <section class="container-2">
         <div class="h2-3">
             <h2>Навыки</h2>
             <hr class="hr">
@@ -80,25 +86,25 @@
         <div class="h2-5">
             <h2>Образование</h2>
             <hr class="hr">
-            <table class="table-2">
-                <tr>
-                    <td>Школа №62</td>
-                    <td>Ученик</td>
-                    <td>2004 - 2013</td>
-                </tr>
-                <tr>
-                    <td>Львовский колледж лёгкой промышленности (Львовский колледж индустрии моды)</td>
-                    <td>Студент, инженерный механик</td>
-                    <td>2013 - 2017</td>
-                </tr>
-                <tr>
-                    <td>Самообразование</td>
-                    <td></td>
-                    <td>2017 - сейчас</td>
-                </tr>
-            </table>
+            <div class="table">
+                <div class="table-row">
+                    <div class="table-column">Школа №62</div>
+                    <div>Ученик</div>
+                    <div>2004 - 2013</div>
+                </div>
+                <div>
+                    <div>Львовский колледж лёгкой промышленности (Львовский колледж индустрии моды)</div>
+                    <div>Студент, инженерный механик</div>
+                    <div>2013 - 2017</div>
+                </div>
+                <div>
+                    <div>Самообразование</div>
+                    <div></div>
+                    <div>2017 - сейчас</div>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>    
+        </section>
+</main>
 </body>
 </html>
