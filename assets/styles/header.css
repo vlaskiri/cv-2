@@ -1,5 +1,5 @@
 .headerimage {
-    background-image: url(/assets/images/avatar.jpg);
+    background-image: url("../images/avatar.jpg");
     padding-bottom: 2px;
 }
 .avatar {
